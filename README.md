@@ -6,7 +6,9 @@ tools drift off their expected model.
 ## Install
 
 ```sh
-brew install --cask d4r1as/tessera/tessera
+brew tap d4r1as/tessera
+brew trust d4r1as/tessera        # one-time: trust this third-party tap
+brew install --cask tessera
 ```
 
 On first launch macOS blocks it (not notarized yet) — approve once via
@@ -17,3 +19,9 @@ xattr -dr com.apple.quarantine "/Applications/Tessera.app"
 ```
 
 Then grant Accessibility and Notifications when the setup wizard asks.
+
+## Uninstall
+
+```sh
+brew uninstall --cask tessera
+```
