@@ -1,6 +1,6 @@
 cask "tessera" do
-  version "1.0"
-  sha256 "259b5226d1e5674b18bdfa4888379ddab6c74ac91388fc9d06c8d3aa3a2d5385"
+  version "1.1"
+  sha256 "e3d032853cc6d36d881ff86f54bdd786eba231a0d1118546dd4388223564803b"
 
   url "https://github.com/d4r1as/homebrew-tessera/releases/download/v#{version}/Tessera-#{version}.zip"
   name "Tessera"
