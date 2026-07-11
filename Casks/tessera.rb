@@ -12,7 +12,7 @@ cask "tessera" do
   desc "Menu-bar watchdog that alerts when your AI tools drift off their expected model"
   homepage "https://github.com/d4r1as/homebrew-tessera"
 
-  depends_on macos: ">= :sonoma" # macOS 14+
+  depends_on macos: :sonoma # macOS 14+ (minimum)
 
   app "Tessera.app"
 
