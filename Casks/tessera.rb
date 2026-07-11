@@ -5,7 +5,7 @@
 # or the manual Release build, then `shasum -a 256 Tessera-<version>.zip`).
 cask "tessera" do
   version "1.0"
-  sha256 "35a0cedf10f2fae67e076472a954ab5ed0244e12e4355e3cb94a79df08fb2f5f"
+  sha256 "d275f92005fe66d87fce1c740467b7b6dc3a681a1d56e7fe6f4a59b194d262aa"
 
   url "https://github.com/d4r1as/homebrew-tessera/releases/download/v#{version}/Tessera-#{version}.zip"
   name "Tessera"
