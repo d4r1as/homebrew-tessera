@@ -1,11 +1,6 @@
-# Homebrew cask for Tessera — lives in the tap repo (d4r1as/homebrew-tessera)
-# under Casks/tessera.rb. Install with:
-#   brew install --cask d4r1as/tessera/tessera
-# On each release, bump `version` + `sha256` (build the zip with scripts/release.sh
-# or the manual Release build, then `shasum -a 256 Tessera-<version>.zip`).
 cask "tessera" do
   version "1.0"
-  sha256 "d275f92005fe66d87fce1c740467b7b6dc3a681a1d56e7fe6f4a59b194d262aa"
+  sha256 "8b379967cfcc19f99794ada946f000097b1182b0837cc9bfbea17aca07346cff"
 
   url "https://github.com/d4r1as/homebrew-tessera/releases/download/v#{version}/Tessera-#{version}.zip"
   name "Tessera"
