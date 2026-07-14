@@ -1,6 +1,6 @@
 cask "tessera" do
-  version "1.2"
-  sha256 "bfe5ede25e5109420dc6e86c3c9aa2820a6d461e1dd7565b3beb07586a134bf4"
+  version "1.3"
+  sha256 "7a405bcc20fc57449e54bd3c2cdb4e83ea5e4921b317de0c998882e51b46827d"
 
   url "https://github.com/d4r1as/homebrew-tessera/releases/download/v#{version}/Tessera-#{version}.zip"
   name "Tessera"
@@ -18,10 +18,6 @@ cask "tessera" do
   ]
 
   caveats <<~EOS
-    Tessera isn't notarized yet, so macOS blocks it on first launch. Approve it
-    once via System Settings → Privacy & Security → "Open Anyway", or run:
-      xattr -dr com.apple.quarantine "#{appdir}/Tessera.app"
-
-    Then grant Accessibility and Notifications when the setup wizard asks.
+    Grant Accessibility and Notifications when the setup wizard asks.
   EOS
 end
